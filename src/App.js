@@ -4,11 +4,11 @@ import Visualization from './Visualizer';
 
 function App() {
   const [selectedAlgorithm, setSelectedAlgorithm] = useState(null);
-  const [array, setArray] = useState(Array.from({ length: 100 }, () => Math.floor(Math.random() * 500) + 1));
+  const [array, setArray] = useState(Array.from({ length: 200 }, () => Math.floor(Math.random() * 500) + 1));
   const [start, setStart] = useState(false);
   const generateArray = () => {
     // Generate a new random array
-    const newArray = Array.from({ length: 100 }, () => Math.floor(Math.random() * 500) + 1);
+    const newArray = Array.from({ length: 200 }, () => Math.floor(Math.random() * 500) + 1);
     setArray(newArray);
     setStart(false);
   };
