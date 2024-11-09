@@ -1,6 +1,10 @@
-# Information:
-This project was my first react project, 
-it is created to test my knowledge of sorting algorithms after completing CS61B.
+# Sorting Visualizer
 
-# Run:
-To access this project, go to <a>https://marcodez811.github.io/sorting-algo/</a>
+A simple visualizer that I implemented to review fundamental sorting algorithms.
+
+It contains the visualization of:
+- Bubble Sort
+- Insertion Sort
+- Selection Sort
+- Merge Sort
+- Quick Sort
